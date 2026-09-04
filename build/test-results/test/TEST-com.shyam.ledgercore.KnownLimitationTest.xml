@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.shyam.ledgercore.KnownLimitationTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2026-09-04T09:47:31.605Z" hostname="VIJAY" time="0.118">
+  <properties/>
+  <testcase name="system_hasNoMechanismToFlag_settlementCompletedAgainstLaterInvalidatedBalance()" classname="com.shyam.ledgercore.KnownLimitationTest" time="0.102">
+    <failure message="org.opentest4j.AssertionFailedError: Known limitation (see AMBIGUITIES.md #9): system does not detect or flag an authorization/settlement lifecycle that later turns out to have been approved against a balance a backdated event proves was inaccurate. Not implemented by design -- see REJECTED.md Part B, item 8. ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Known limitation (see AMBIGUITIES.md #9): system does not detect or flag an authorization/settlement lifecycle that later turns out to have been approved against a balance a backdated event proves was inaccurate. Not implemented by design -- see REJECTED.md Part B, item 8. ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
+	at com.shyam.ledgercore.KnownLimitationTest.system_hasNoMechanismToFlag_settlementCompletedAgainstLaterInvalidatedBalance(KnownLimitationTest.java:71)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+</failure>
+  </testcase>
+  <system-out><![CDATA[ERROR: E6 rejected — no active authorization for Auth-Z
+ERROR: E8 rejected — insufficient available balance
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

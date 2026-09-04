@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.shyam.ledgercore.rules.RuleEngineTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-09-04T09:47:31.759Z" hostname="VIJAY" time="0.014">
+  <properties/>
+  <testcase name="assessOverdraftFee_returnsNull_whenBalancePositive()" classname="com.shyam.ledgercore.rules.RuleEngineTest" time="0.003"/>
+  <testcase name="assessOverdraftFee_returnsNull_whenFeeAlreadyChargedThatDay()" classname="com.shyam.ledgercore.rules.RuleEngineTest" time="0.001"/>
+  <testcase name="verifyInterestReconciliation_throws_whenSumsDoNotMatch()" classname="com.shyam.ledgercore.rules.RuleEngineTest" time="0.002"/>
+  <testcase name="assessOverdraftFee_returnsFee_whenBalanceNegative()" classname="com.shyam.ledgercore.rules.RuleEngineTest" time="0.001"/>
+  <testcase name="calculateDailyInterest_returnsAmount_whenBalancePositive()" classname="com.shyam.ledgercore.rules.RuleEngineTest" time="0.0"/>
+  <testcase name="isAuthorizationApprovable_true_whenAvailableBalanceStaysNonNegative()" classname="com.shyam.ledgercore.rules.RuleEngineTest" time="0.0"/>
+  <testcase name="calculateDailyInterest_returnsNull_whenBalanceNotPositive()" classname="com.shyam.ledgercore.rules.RuleEngineTest" time="0.0"/>
+  <testcase name="verifyInterestReconciliation_doesNotThrow_whenSumsMatch()" classname="com.shyam.ledgercore.rules.RuleEngineTest" time="0.0"/>
+  <testcase name="calculateCapitalizedInterest_sumsOnlyPositiveDays()" classname="com.shyam.ledgercore.rules.RuleEngineTest" time="0.001"/>
+  <testcase name="isAuthorizationApprovable_false_whenAvailableBalanceWouldGoNegative()" classname="com.shyam.ledgercore.rules.RuleEngineTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

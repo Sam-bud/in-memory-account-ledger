@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.shyam.ledgercore.model.AccountLedgerStoreTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-09-04T09:47:31.739Z" hostname="VIJAY" time="0.006">
-  <properties/>
-  <testcase name="closingBalance_excludesEventsWithValueDateAfterGivenDay()" classname="com.shyam.ledgercore.model.AccountLedgerStoreTest" time="0.002"/>
-  <testcase name="closingBalance_sumsCreditsAndDebitsUpToGivenDay()" classname="com.shyam.ledgercore.model.AccountLedgerStoreTest" time="0.001"/>
-  <testcase name="closingBalance_reflectsBackdatedDebit_onceAppended()" classname="com.shyam.ledgercore.model.AccountLedgerStoreTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
